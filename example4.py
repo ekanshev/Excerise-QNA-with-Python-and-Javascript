@@ -1,4 +1,3 @@
-
 # Problem #4
 # Write a function that provides a change directory (cd) function for an abstract file system.
 
@@ -13,15 +12,6 @@
 # Do not use built-in path-related functions.
 
 # Solution4 -> 
-
-For example:
-
-path = Path('/a/b/c/d')
-
-path.cd('../x')
-
-print(path.current_path)
-
 
 class Path:
     def __init__(self, path):
